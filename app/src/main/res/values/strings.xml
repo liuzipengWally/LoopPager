@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">LoopPager</string>
-    <string-array name="imgs">
-        <item>@mipmap/header</item>
-        <item>@mipmap/header</item>
-        <item>@mipmap/header</item>
-        <item>@mipmap/header</item>
-    </string-array>
-</resources>
