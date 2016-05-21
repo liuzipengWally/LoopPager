@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoopPager">
+        <attr name="loop" format="boolean" />
+        <attr name="imagesForLocal" format="reference" />
+        <attr name="loopDuration" format="integer" />
+        <attr name="naviColor" format="color" />
+        <attr name="naviRadius" format="dimension" />
+        <attr name="enableNavi" format="boolean" />
+
+        <attr name="naviShape">
+            <enum name="circle" value="0" />
+            <enum name="rectangle" value="1" />
+            <enum name="roundRectangle" value="2" />
+        </attr>
+
+        <attr name="mPosition">
+            <enum name="bottom_center" value="0" />
+            <enum name="bottom_left" value="1" />
+            <enum name="bottom_right" value="2" />
+            <enum name="top_center" value="3" />
+            <enum name="top_left" value="4" />
+            <enum name="top_right" value="5" />
+        </attr>
+
+        <attr name="rectangleWidth" format="dimension" />
+        <attr name="rectangleHeight" format="dimension" />
+    </declare-styleable>
+</resources>
