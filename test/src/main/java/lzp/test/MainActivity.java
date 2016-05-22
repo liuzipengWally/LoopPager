@@ -23,7 +23,17 @@ public class MainActivity extends AppCompatActivity {
         urls.add("http://img4.imgtn.bdimg.com/it/u=3252822932,941775074&fm=21&gp=0.jpg");
         urls.add("http://img1.imgtn.bdimg.com/it/u=3547247058,1962251339&fm=21&gp=0.jpg");
         urls.add("http://static.vgtime.com/article/web/150515191332685.jpg");
+
         mLoopPager.setRemoteImageUrls(urls);
+        mLoopPager.setEnableNavi(true);
+        mLoopPager.setLoop(true);
+        
+        mLoopPager.setLoopDuration(3000);
+        mLoopPager.setNaviPosition(LoopPager.BOTTOM_RIGHT);
+        mLoopPager.setNaviRadius(4);
+        mLoopPager.setNaviShape(LoopPager.CIRCLE);
+        mLoopPager.setNaviWidthAndHeight(8,4);
+
         mLoopPager.setOnClickListener(new LoopPager.OnClickListener() {
             @Override
             public void onClick(int position, ImageView imageView) {

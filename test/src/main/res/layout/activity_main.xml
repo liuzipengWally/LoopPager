@@ -10,9 +10,16 @@
         android:id="@+id/loopPager"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        app:naviColor="#ff9800"
         app:mPosition="bottom_right"
-        app:naviColor="#fa969b"
-        app:naviShape="circle">
+        app:loopDuration="3000"
+        app:enableNavi="true"
+        app:loop="true"
+        app:naviShape="circle"
+        app:naviRadius="4dp"
+        app:rectangleWidth="8dp"
+        app:rectangleHeight="4dp"
+        >
 
     </com.lzp.looppager.LoopPager>
 </RelativeLayout>
